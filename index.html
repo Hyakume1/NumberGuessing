@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Number guessing game!</h1>
+    <div id="inputDiv">
+        <label for="lowerBound">Lower number</label>
+        <input type="number" id="lowerBound">
+        <label for="upperBound">Upper number</label>
+        <input type="number" id="upperBound">
+
+        <div id="guessingDiv">
+            <label for="guess">Now guess!</label>
+            <input type="number" id="guessNum">
+            <button type="submit" id="tryBtn">Try!</button>
+        </div>
+    </div>
+
+    <h1 id="hint">hint</h1>
+
+
+    <h1>Total tries: </h1>
+    <h1 id="tries">0</h1>
+
+
+    <button type="button" id="restartBtn">restart</button>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
